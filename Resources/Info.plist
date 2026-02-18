@@ -18,6 +18,14 @@
 				<string>public.item</string>
 			</array>
 		</dict>
+		<dict>
+			<key>CFBundleTypeName</key>
+			<string>MKDirectionsRequest</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>com.apple.maps.directionsrequest</string>
+			</array>
+		</dict>
 	</array>
 	<key>CFBundleExecutable</key>
 	<string>LiveContainer</string>
@@ -78,6 +86,21 @@
 	</array>
 	<key>LSSupportsOpeningDocumentsInPlace</key>
 	<true/>
+	<key>MKDirectionsApplicationSupportedModes</key>
+	<array>
+		<string>MKDirectionsModeBike</string>
+		<string>MKDirectionsModeBus</string>
+		<string>MKDirectionsModeCar</string>
+		<string>MKDirectionsModeFerry</string>
+		<string>MKDirectionsModeOther</string>
+		<string>MKDirectionsModePedestrian</string>
+		<string>MKDirectionsModePlane</string>
+		<string>MKDirectionsModeRideShare</string>
+		<string>MKDirectionsModeStreetCar</string>
+		<string>MKDirectionsModeSubway</string>
+		<string>MKDirectionsModeTaxi</string>
+		<string>MKDirectionsModeTrain</string>
+	</array>
 	<key>NFCReaderUsageDescription</key>
 	<string>The guest app is requesting for this permission.</string>
 	<key>NSAppTransportSecurity</key>
@@ -92,6 +115,8 @@
 	<key>NSBluetoothAlwaysUsageDescription</key>
 	<string>The guest app is requesting for this permission.</string>
 	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>The guest app is requesting for this permission.</string>
+	<key>NSBluetoothWhileInUseUsageDescription</key>
 	<string>The guest app is requesting for this permission.</string>
 	<key>NSBonjourServices</key>
 	<array>
@@ -108,6 +133,8 @@
 	<key>NSFaceIDUsageDescription</key>
 	<string>The guest app is requesting for this permission.</string>
 	<key>NSFallDetectionUsageDescription</key>
+	<string>The guest app is requesting for this permission.</string>
+	<key>NSFinancialDataUsageDescription</key>
 	<string>The guest app is requesting for this permission.</string>
 	<key>NSGKFriendListUsageDescription</key>
 	<string>The guest app is requesting for this permission.</string>
@@ -154,6 +181,8 @@
 	<key>NSSpeechRecognitionUsageDescription</key>
 	<string>The guest app is requesting for this permission.</string>
 	<key>NSUserTrackingUsageDescription</key>
+	<string>The guest app is requesting for this permission.</string>
+	<key>NSVoIPUsageDescription</key>
 	<string>The guest app is requesting for this permission.</string>
 	<key>SBAppUsesLocalNotifications</key>
 	<integer>1</integer>

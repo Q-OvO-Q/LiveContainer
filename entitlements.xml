@@ -4,6 +4,20 @@
 <dict>
 	<key>application-identifier</key>
 	<string>$(DEVELOPMENT_TEAM).$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>aps-environment</key>
+	<string>development</string>
+	<key>com.apple.developer.applesignin</key>
+	<array>
+		<string>Default</string>
+	</array>
+	<key>com.apple.developer.associated-domains</key>
+	<array/>
+	<key>com.apple.developer.background-tasks.continued-processing.gpu</key>
+	<true/>
+	<key>com.apple.developer.device-discovery.pairing-access</key>
+	<string>default</string>
+	<key>com.apple.developer.game-center</key>
+	<true/>
 	<key>com.apple.developer.healthkit</key>
 	<true/>
 	<key>com.apple.developer.healthkit.access</key>
@@ -12,16 +26,129 @@
 	</array>
 	<key>com.apple.developer.healthkit.background-delivery</key>
 	<true/>
+	<key>com.apple.developer.healthkit.recalibrate-estimates</key>
+	<true/>
+	<key>com.apple.developer.icloud-container-identifiers</key>
+	<array/>
+	<key>com.apple.developer.icloud-extended-share-access</key>
+	<array>
+		<string>InProcessShareAccessRequests</string>
+		<string>InProcessOneTimeLinks</string>
+		<string>InProcessShareOwnerParticipantInfo</string>
+	</array>
+	<key>com.apple.developer.icloud-services</key>
+	<array>
+		<string>CloudDocuments</string>
+		<string>CloudKit</string>
+	</array>
+	<key>com.apple.developer.in-app-payments</key>
+	<array/>
+	<key>com.apple.developer.kernel.extended-virtual-addressing</key>
+	<true/>
+	<key>com.apple.developer.kernel.increased-debugging-memory-limit</key>
+	<true/>
 	<key>com.apple.developer.kernel.increased-memory-limit</key>
+	<true/>
+	<key>com.apple.developer.location.push</key>
+	<true/>
+	<key>com.apple.developer.low-latency-streaming</key>
+	<true/>
+	<key>com.apple.developer.networking.HotspotConfiguration</key>
+	<true/>
+	<key>com.apple.developer.networking.carrier-constrained.app-optimized</key>
+	<true/>
+	<key>com.apple.developer.networking.carrier-constrained.appcategory</key>
+	<array>
+		<string>emergency-8007</string>
+		<string>health-fitness-8014</string>
+		<string>food-delivery-8010</string>
+		<string>interactive-productivity-8013</string>
+		<string>messaging-8001</string>
+		<string>hiking-adventure-8003</string>
+		<string>maps-8002</string>
+		<string>weather-8005</string>
+		<string>ride-share-8009</string>
+		<string>light-social-8008</string>
+		<string>voip-8006</string>
+		<string>music-8004</string>
+		<string>news-8011</string>
+		<string>productivity-8012</string>
+	</array>
+	<key>com.apple.developer.networking.manage-thread-network-credentials</key>
+	<true/>
+	<key>com.apple.developer.networking.multipath</key>
+	<true/>
+	<key>com.apple.developer.networking.networkextension</key>
+	<array>
+		<string>url-filter-provider</string>
+		<string>relay</string>
+		<string>app-proxy-provider</string>
+		<string>hotspot-provider</string>
+		<string>packet-tunnel-provider</string>
+		<string>dns-proxy</string>
+		<string>content-filter-provider</string>
+		<string>dns-settings</string>
+	</array>
+	<key>com.apple.developer.networking.slicing.appcategory</key>
+	<array>
+		<string>games-6014</string>
+		<string>communication-9000</string>
+		<string>streaming-9001</string>
+	</array>
+	<key>com.apple.developer.networking.slicing.trafficcategory</key>
+	<array>
+		<string>avstreaming-7</string>
+		<string>defaultslice-1</string>
+		<string>responsiveav-8</string>
+		<string>responsivedata-6</string>
+		<string>video-2</string>
+		<string>callsignaling-5</string>
+		<string>background-3</string>
+		<string>voice-4</string>
+	</array>
+	<key>com.apple.developer.networking.vpn.api</key>
+	<array>
+		<string>allow-vpn</string>
+	</array>
+	<key>com.apple.developer.networking.wifi-info</key>
+	<true/>
+	<key>com.apple.developer.nfc.readersession.formats</key>
+	<array>
+		<string>TAG</string>
+	</array>
+	<key>com.apple.developer.pass-type-identifiers</key>
+	<array>
+		<string>$(TeamIdentifierPrefix)*</string>
+	</array>
+	<key>com.apple.developer.push-to-talk</key>
+	<true/>
+	<key>com.apple.developer.siri</key>
 	<true/>
 	<key>com.apple.developer.team-identifier</key>
 	<string>$(DEVELOPMENT_TEAM)</string>
+	<key>com.apple.developer.ubiquity-container-identifiers</key>
+	<array/>
+	<key>com.apple.developer.ubiquity-kvstore-identifier</key>
+	<string>$(TeamIdentifierPrefix)$(CFBundleIdentifier)</string>
+	<key>com.apple.developer.usernotifications.communication</key>
+	<true/>
+	<key>com.apple.developer.usernotifications.time-sensitive</key>
+	<true/>
+	<key>com.apple.developer.weatherkit</key>
+	<true/>
+	<key>com.apple.developer.wifi-aware</key>
+	<array>
+		<string>Subscribe</string>
+		<string>Publish</string>
+	</array>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>$(APP_GROUP_SIDESTORE)</string>
-		<string>$(APP_GROUP_ALTSTORE)</string>
+		<string>group.com.rileytestut.AltStore.SDG8NPNLH6</string>
+		<string>group.com.SideStore.SideStore.SDG8NPNLH6</string>
 	</array>
 	<key>get-task-allow</key>
+	<true/>
+	<key>inter-app-audio</key>
 	<true/>
 	<key>keychain-access-groups</key>
 	<array>
